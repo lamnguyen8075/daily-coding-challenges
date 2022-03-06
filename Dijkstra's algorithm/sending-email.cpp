@@ -8,7 +8,7 @@ using namespace std;
 const int INF = 1e9;
 
 vector<vector<pair<int,int>>> graph(MAX);
-vector<int> dist(MAX,INF);
+vector<int> dist(MAX,INF); // dist[index] --index: is the đỉnh --value at dist[index]: the distance from the intial node to the node of index
 int path[MAX];
 
 void dijkstra(int s){
